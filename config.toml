@@ -1,3 +1,17 @@
-baseURL = "http://example.org/"
+baseURL = "https://tirthbal.in/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+theme = "tale"
+title = "Tirth Bal"
+
+[menu]
+  [[menu.header]]
+    identifier = "about"
+    name = "about"
+    weight = 1
+    url = "/about"
+  [[menu.header]]
+    identifier = "post"
+    name = "post"
+    weight = 0
+    url = "/post"
+
